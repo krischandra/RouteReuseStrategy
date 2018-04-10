@@ -36,3 +36,7 @@ So, we've seen the logic for storage, but what about navigating to a component? 
 
 Again, after shouldReuseRoute has returned false, shouldAttach runs, which is your chance to figure out whether you want to regenerate or use the component in memory. If you want to reuse a stored component, return true and you're well on your way!
 Now Angular will ask you, "which component do you want us to use?", which you will indicate by returning that component's DetachedRouteHandle from retrieve.
+
+How to use?
+
+Navigate to src/app/shared/router/custom-reuse-strategy2.ts
